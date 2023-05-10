@@ -5,8 +5,8 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import week7.day2.base.ProjectSpecificMethod;
-import week7.day2.pages.CreateLeadFormFilling;
+import base.ProjectSpecificMethod;
+import pages.CreateLeadFormFilling;
 
 
 

@@ -1,4 +1,4 @@
-package week7.day2.util;
+package util;
 
 
 import java.io.IOException;

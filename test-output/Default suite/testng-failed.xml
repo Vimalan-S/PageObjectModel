@@ -3,13 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="week7.day2.testcase.DuplicateLeadTestcase">
+      <class name="testcase.CreateLeadTestcase">
         <methods>
+          <include name="runCreateLeadTestcase"/>
+          <include name="tearDown"/>
+          <include name="startReport"/>
+          <include name="stopReport"/>
           <include name="setup"/>
-          <include name="runCreateLeadTestcase" invocation-numbers="0"/>
           <include name="LaunchBrowser"/>
+          <include name="testDetails"/>
         </methods>
-      </class> <!-- week7.day2.testcase.DuplicateLeadTestcase -->
+      </class> <!-- testcase.CreateLeadTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

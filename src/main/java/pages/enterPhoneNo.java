@@ -1,9 +1,9 @@
-package week7.day2.pages;
+package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import week7.day2.base.ProjectSpecificMethod;
+import base.ProjectSpecificMethod;
 
 public class enterPhoneNo extends ProjectSpecificMethod{
 	public enterPhoneNo(ChromeDriver driver) {
